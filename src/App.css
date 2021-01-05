@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.activeclass {
+  background-color: black;
+  color: white;
+}
+
+.singleproject {
+  width: 49.2%;
+}
+.contentCenter {
+  margin: 0px auto;
+}

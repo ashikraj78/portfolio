@@ -1,0 +1,85 @@
+{
+  "projects": [
+    {
+      "title": "Trello Clone",
+      "details": "Web-based list-making application. Users can create their task boards with different columns and move the tasks between them.",
+      "language": ["all", "react-js", "node-js"],
+      "image": "lappy.webp",
+      "website": "https://ashikraj78.github.io/trello_frontend/",
+      "code": "https://github.com/ashikraj78/trello_frontend",
+      "sku": "1"
+    },
+    {
+      "title": "Shopping Cart",
+      "details": "Fornt-end based application. User can filter products based on required sizes and shorting it based on price",
+      "language": ["all", "react-js", "javasctipt"],
+      "image": "lappy.webp",
+      "website": "https://ashikraj78.github.io/shopping_cart_react/",
+      "code": "https://github.com/ashikraj78/shopping_cart_react",
+      "sku": "2"
+    },
+    {
+      "title": "Gate Architecture Forum",
+      "details": "Web app for preparation of Gate Architecture. Get here free study material for GATE preparation.",
+      "language": ["all", "react-js"],
+      "image": "lappy.webp",
+      "website": "https://gatearforum.in/",
+      "code": "https://github.com/ashikraj78/gateARForum",
+      "sku": "3"
+    },
+    {
+      "title": "E Tuckshop",
+      "details": "A full-stack web-app and make use of whatever I have learnt in the journey of Node & Express. Here I used Nodemailer, building the Cart & Orders Section.",
+      "language": ["all", "node-js"],
+      "image": "lappy.webp",
+      "website": "https://immense-headland-23527.herokuapp.com/",
+      "code": "https://github.com/ashikraj78/shoppingcart_node",
+      "sku": "4"
+    },
+    {
+      "title": "Community App",
+      "details": "Medium is an open platform where readers find dynamic thinking, and where expert and undiscovered voices can share their writing on any topic.",
+      "language": ["all", "node-js", "react-js"],
+      "image": "lappy.webp",
+      "website": "abc.com",
+      "code": "#",
+      "sku": "5"
+    },
+    {
+      "title": "Game",
+      "details": "Game is part of life. It enhance our thought process and control",
+      "language": ["all", "javasctipt"],
+      "image": "lappy.webp",
+      "website": "https://ashikraj78.github.io/game/.",
+      "code": "https://github.com/ashikraj78/game",
+      "sku": "6"
+    },
+    {
+      "title": "Quiz App",
+      "details": "Quiz App using OOPs. It involves the usage of JSON data and based on that entire content is generated dynamically.",
+      "language": ["all", "javasctipt"],
+      "image": "lappy.webp",
+      "website": "https://ashikraj78.github.io/quiz_app/.",
+      "code": "https://github.com/ashikraj78/quiz_app",
+      "sku": "7"
+    },
+    {
+      "title": "ToDos",
+      "details": "It is a Todo webapp. Aim was to build Todo App completely using javascript and the concept of SST[Single source of truth]",
+      "language": ["all", "javasctipt"],
+      "image": "lappy.webp",
+      "website": "abc.com",
+      "code": "https://github.com/ashikraj78/TODO-MVC",
+      "sku": "8"
+    },
+    {
+      "title": "Asma Aadhar",
+      "details": "It is a live project and was designed for architectural client.",
+      "language": ["all", "javasctipt", "html-css"],
+      "image": "lappy.webp",
+      "website": "https://asmaadhar.com/",
+      "code": "https://github.com/ashikraj78/assmaadhar",
+      "sku": "9"
+    }
+  ]
+}
