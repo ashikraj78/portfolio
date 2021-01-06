@@ -8,7 +8,7 @@ export default function Social() {
   return (
     <section className="flex justify-between ">
       <div className="flex sm:block sm:fixed sm:left-12 bottom-0 ">
-        <div className="mb-4 opacity-60 w-5/6 smicon">
+        <div className="mb-6 sm:mb-4 opacity-60 w-5/6 smicon">
           <a
             href="https://github.com/ashikraj78"
             target="_blank"

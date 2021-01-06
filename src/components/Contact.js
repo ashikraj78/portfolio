@@ -57,7 +57,9 @@ export default function Contact() {
   }
   return (
     <div id="contact" className="mb-10">
-      <h2 className="text-center font-semibold mb-4 sheading">Get In Touch</h2>
+      <h2 className="text-center font-semibold mb-4 sheading text-3xl sm:text-5xl">
+        Get In Touch
+      </h2>
       <div className="sm:w-7/12 text-center contentCenter">
         <p>
           I am currently looking for new opportunities, my inbox is always open.
