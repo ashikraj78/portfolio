@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { projects } from "../projects.json";
+import TestImg from "../images/1.png";
+
 export default function Projects() {
   const [filterProjects, setFrilterProjects] = useState(projects);
   let [languages, setLanguages] = useState(
@@ -44,7 +46,10 @@ export default function Projects() {
             <h3 className="text-xl font-semibold text-gray-500 text-center mb-8 mt-4">
               {proj.title}
             </h3>
-            <img src={`/images/${proj.sku}.png`} alt="project" />
+            <img
+              src={require(`../images/${proj.sku}.png`).default}
+              alt="project"
+            />
             <p className="text-gray-500 mb-1 mt-2 h-24 text-center ">
               {proj.details}
             </p>
