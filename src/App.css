@@ -100,7 +100,13 @@
   border: 1px solid rgb(180, 168, 168);
 }
 .sheading {
-  font-size: 3rem;
+  /* font-size: 3rem; */
   color: rgba(55, 65, 81);
   text-shadow: inset 4px 4px 6px rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 640px) {
+  .one_third {
+    width: 100%;
+  }
 }

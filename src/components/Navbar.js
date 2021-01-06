@@ -7,7 +7,7 @@ export default function Navbar() {
       <div>
         <img src={LogoImg} alt="logo" />
       </div>
-      <section className="font-mono">
+      <section className="font-mono  hidden sm:block">
         <a className="pr-6" href="#about">
           About
         </a>

@@ -7,14 +7,14 @@ import LinkedinImg from "../images/linkedin.png";
 export default function Social() {
   return (
     <section className="flex justify-between ">
-      <div className="fixed left-12 bottom-0 ">
+      <div className="flex sm:block sm:fixed sm:left-12 bottom-0 ">
         <div className="mb-4 opacity-60 w-5/6 smicon">
           <a
             href="https://github.com/ashikraj78"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={GithubImg} alt="github" />
+            <img src={GithubImg} alt="github" className="pr-2 sm:pr-0" />
           </a>
         </div>
         <div className="mb-4 opacity-60 w-5/6 smicon">
@@ -23,7 +23,7 @@ export default function Social() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={InstaImg} alt="instagram" />
+            <img src={InstaImg} alt="instagram" className="pr-2 sm:pr-0" />
           </a>
         </div>
         <div className="mb-4 opacity-60 w-5/6 smicon">
@@ -32,7 +32,7 @@ export default function Social() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={TwitterImg} alt="twitter" />
+            <img src={TwitterImg} alt="twitter" className="pr-2 sm:pr-0" />
           </a>
         </div>
         <div className="mb-4 opacity-60 w-5/6 smicon">
@@ -41,12 +41,12 @@ export default function Social() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={LinkedinImg} alt="linkedin" />
+            <img src={LinkedinImg} alt="linkedin" className="pr-2 sm:pr-0" />
           </a>
         </div>
-        <div className=" border-l-2 border-black h-24 w-1 ml-3 opacity-60  "></div>
+        <div className="hidden sm:block border-l-2 border-black h-24 w-1 ml-3 opacity-60  "></div>
       </div>
-      <div className="fixed right-12 bottom-0  ">
+      <div className="hidden sm:block sm:fixed right-12 bottom-0  ">
         <div>
           <a
             href="mailto:ashikraj.78@gmail.com"

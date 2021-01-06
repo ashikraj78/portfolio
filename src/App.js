@@ -10,10 +10,10 @@ import Social from "./components/Social";
 function App() {
   return (
     <div className="relative">
-      <div className="pl-12 pr-12  mt-6 ">
+      <div className="pl-4 sm:pl-12 pr-12  mt-6 ">
         <Navbar />
       </div>
-      <div className="pl-40 pr-40">
+      <div className="pl-4 pr-4 sm:pl-40 sm:pr-40">
         <Hero />
         <Skill />
         <Projects />

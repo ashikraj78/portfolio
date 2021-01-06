@@ -58,14 +58,14 @@ export default function Contact() {
   return (
     <div id="contact" className="mb-10">
       <h2 className="text-center font-semibold mb-4 sheading">Get In Touch</h2>
-      <div className="w-7/12 text-center contentCenter">
+      <div className="sm:w-7/12 text-center contentCenter">
         <p>
           I am currently looking for new opportunities, my inbox is always open.
           Whether you have a question or just want to say hi, I'll try my best
           to get back to you!
         </p>
       </div>
-      <div className="pl-72">
+      <div className="sm:pl-72">
         <form onSubmit={handleSubmit}>
           <div className="mb-4 mt-6">
             <label htmlFor="name"> Name</label>
@@ -74,7 +74,7 @@ export default function Contact() {
               name="name"
               value={values.name}
               onChange={handleChange}
-              className="border border-gray-300 rounded-md block w-3/5 pt-1 pb-1 pl-2"
+              className="border border-gray-300 rounded-md block  w-full sm:w-3/5 pt-1 pb-1 pl-2"
             />
             <small className="pb-10 text-red-700">{errors.name}</small>
           </div>
@@ -84,7 +84,7 @@ export default function Contact() {
               name="email"
               value={values.email}
               onChange={handleChange}
-              className="border border-gray-300 rounded-md  block w-3/5 pt-1 pb-1 pl-2"
+              className="border border-gray-300 rounded-md  block w-full sm:w-3/5 pt-1 pb-1 pl-2"
             />
             <small className="pb-10 text-red-700">{errors.email}</small>
           </div>
@@ -96,7 +96,7 @@ export default function Contact() {
               rows="5"
               value={values.message}
               onChange={handleChange}
-              className="border border-gray-300 rounded-md block w-3/5 pt-1 pb-1 pl-2"
+              className="border border-gray-300 rounded-md block w-full sm:w-3/5 pt-1 pb-1 pl-2"
             ></textarea>
             <small className="pb-10 text-red-700">{errors.message}</small>
           </div>

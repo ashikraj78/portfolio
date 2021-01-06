@@ -24,13 +24,15 @@ export default function Projects() {
   }
   return (
     <section id="project" className="mb-10">
-      <h2 className="mb-10 text-center font-semibold sheading ">Projects</h2>
+      <h2 className="mb-10 text-center font-semibold sheading text-3xl sm:text-5xl ">
+        Projects
+      </h2>
       <div className="flex justify-between ">
         {languages.map((l) => (
           <li className="list-none ">
             <button
               onClick={() => handleClick(l.label)}
-              className={`border-solid border border-gray-200 px-8 py-2 rounded-md font-mono lang_btn  ${
+              className={`border-solid border border-gray-200 px-1 py-1 sm:px-8 sm:py-2 text-xs sm:text-base rounded-md font-mono lang_btn  ${
                 l.checked ? "activeclass" : ""
               }`}
             >
@@ -39,7 +41,7 @@ export default function Projects() {
           </li>
         ))}
       </div>
-      <div className="flex flex-wrap justify-between mt-10">
+      <div className="flex flex-wrap justify-between mt-5 sm:mt-10">
         {filterProjects.map((proj) => (
           <div className="border-solid border border-gray-300 px-2 py-2 rounded-md singleproject mt-4 one_third bg-white project_display">
             <h3 className="text-xl font-semibold text-gray-500 text-center mb-8 mt-4">
