@@ -9,17 +9,29 @@ export default function Social() {
     <section className="flex justify-between ">
       <div className="fixed left-12 bottom-0 ">
         <div className="mb-4 opacity-60 w-5/6 smicon">
-          <a href="https://github.com/ashikraj78" target="_blank">
+          <a
+            href="https://github.com/ashikraj78"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={GithubImg} alt="github" />
           </a>
         </div>
         <div className="mb-4 opacity-60 w-5/6 smicon">
-          <a href="https://www.instagram.com/_ashikraj/" target="_blank">
+          <a
+            href="https://www.instagram.com/_ashikraj/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={InstaImg} alt="instagram" />
           </a>
         </div>
         <div className="mb-4 opacity-60 w-5/6 smicon">
-          <a href="https://twitter.com/_ashikraj" target="_blank">
+          <a
+            href="https://twitter.com/_ashikraj"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={TwitterImg} alt="twitter" />
           </a>
         </div>
@@ -27,6 +39,7 @@ export default function Social() {
           <a
             href="https://www.linkedin.com/in/ashik-raj-43aa5769/"
             target="_blank"
+            rel="noreferrer"
           >
             <img src={LinkedinImg} alt="linkedin" />
           </a>

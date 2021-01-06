@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import LogoImg from "../images/logo3.svg";
 
 export default function Navbar() {

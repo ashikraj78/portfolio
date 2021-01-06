@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { projects } from "../projects.json";
-import TestImg from "../images/1.png";
 
 export default function Projects() {
   const [filterProjects, setFrilterProjects] = useState(projects);
@@ -58,12 +57,12 @@ export default function Projects() {
                 {/* <button className="border-solid border border-gray-500 px-4 py-2 rounded-3xl">
                 Preview
               </button> */}
-                <a href={proj.website} target="_blank">
+                <a href={proj.website} target="_blank" rel="noreferrer">
                   <button className="border-solid border border-gray-200 px-8 py-2 rounded-md lang_btn font-mono">
                     Demo
                   </button>
                 </a>
-                <a href={proj.code} target="_blank">
+                <a href={proj.code} target="_blank" rel="noreferrer">
                   <button className="border-solid border border-gray-200 px-8 py-2 rounded-md lang_btn font-mono">
                     {/* <img src="/images/github.png" alt="github" /> */}
                     Code
