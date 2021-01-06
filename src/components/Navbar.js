@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LogoImg from "../images/logo3.svg";
 
 export default function Navbar() {
   return (
     <nav className="flex justify-between items-center">
       <div>
-        <img src="/images/logo3.svg" alt="logo" />
+        <img src={LogoImg} alt="logo" />
       </div>
       <section className="font-mono">
         <a className="pr-6" href="#about">
