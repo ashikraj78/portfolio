@@ -22,14 +22,14 @@ export default function Projects() {
     setLanguages(clickedLanguages);
   }
   return (
-    <section className="mb-10">
-      <h2 className="mb-10 text-center text-3xl font-semibold">Projects</h2>
+    <section id="project" className="mb-10">
+      <h2 className="mb-10 text-center font-semibold sheading ">Projects</h2>
       <div className="flex justify-between ">
         {languages.map((l) => (
           <li className="list-none ">
             <button
               onClick={() => handleClick(l.label)}
-              className={`border-solid border border-black px-10 py-2 rounded-md ${
+              className={`border-solid border border-gray-200 px-8 py-2 rounded-md font-mono lang_btn  ${
                 l.checked ? "activeclass" : ""
               }`}
             >
@@ -38,31 +38,33 @@ export default function Projects() {
           </li>
         ))}
       </div>
-      <div className="flex flex-wrap justify-between">
+      <div className="flex flex-wrap justify-between mt-10">
         {filterProjects.map((proj) => (
-          <div className="border-solid border border-black-500 px-10 py-2 rounded-md singleproject mt-4 ">
-            <h3 className="text-2xl font-semibold text-gray-800 text-center mb-6 mt-6">
+          <div className="border-solid border border-gray-300 px-2 py-2 rounded-md singleproject mt-4 one_third bg-white project_display">
+            <h3 className="text-xl font-semibold text-gray-500 text-center mb-8 mt-4">
               {proj.title}
             </h3>
             <img src={`/images/${proj.sku}.png`} alt="project" />
-            <p className="text-gray-500 mb-4 mt-4 h-24 text-center ">
+            <p className="text-gray-500 mb-1 mt-2 h-24 text-center ">
               {proj.details}
             </p>
-            <div className="flex justify-between mb-4">
-              {/* <button className="border-solid border border-gray-500 px-4 py-2 rounded-3xl">
+            <div className="p_display">
+              <div className=" justify-between mb-4 flex">
+                {/* <button className="border-solid border border-gray-500 px-4 py-2 rounded-3xl">
                 Preview
               </button> */}
-              <a href={proj.website} target="_blank">
-                <button className="border-solid border border-gray-500 px-8 py-2 rounded-md">
-                  Demo
-                </button>
-              </a>
-              <a href={proj.code} target="_blank">
-                <button className="border-solid border border-gray-500 px-8 py-2   rounded-md">
-                  {/* <img src="/images/github.png" alt="github" /> */}
-                  Code
-                </button>
-              </a>
+                <a href={proj.website} target="_blank">
+                  <button className="border-solid border border-gray-200 px-8 py-2 rounded-md lang_btn font-mono">
+                    Demo
+                  </button>
+                </a>
+                <a href={proj.code} target="_blank">
+                  <button className="border-solid border border-gray-200 px-8 py-2 rounded-md lang_btn font-mono">
+                    {/* <img src="/images/github.png" alt="github" /> */}
+                    Code
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         ))}

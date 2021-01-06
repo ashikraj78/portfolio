@@ -48,3 +48,59 @@
 .contentCenter {
   margin: 0px auto;
 }
+
+.mail {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.one_third {
+  width: 32.3%;
+}
+
+.smicon:hover {
+  opacity: 100%;
+  transform: scale(1.1);
+}
+
+.lang_btn {
+  box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.25),
+    -2px -2px 3px 0 rgba(255, 255, 255, 0.9);
+}
+.lang_btn:hover {
+  transition: all 0.2s ease;
+  box-shadow: 1px 1px 1px #b8b9be, -1px -1px 1px #fff;
+  background-color: #e6e1e1;
+}
+
+.large_btn {
+  box-shadow: 5px 5px 6px 0 rgba(0, 0, 0, 0.25),
+    -4px -4px 6px 0 rgba(255, 255, 255, 0.9);
+}
+.large_btn:hover {
+  transition: all 0.2s ease;
+  box-shadow: 2px 2px 3px #b8b9be, -2px -2px 2px #fff;
+  background-color: #e6e1e1;
+}
+.p_display {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  background-color: rgba(255, 255, 255);
+  width: 95%;
+  padding-top: 50px;
+}
+.project_display {
+  position: relative;
+}
+
+.project_display:hover .p_display {
+  display: block;
+}
+.project_display:hover {
+  border: 1px solid rgb(180, 168, 168);
+}
+.sheading {
+  font-size: 3rem;
+  color: rgba(55, 65, 81);
+  text-shadow: inset 4px 4px 6px rgba(255, 255, 255, 0.8);
+}

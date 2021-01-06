@@ -56,8 +56,8 @@ export default function Contact() {
       .catch((error) => console.log(error));
   }
   return (
-    <div className="mb-10">
-      <h2 className="text-center text-4xl font-semibold mb-4">Get In Touch</h2>
+    <div id="contact" className="mb-10">
+      <h2 className="text-center font-semibold mb-4 sheading">Get In Touch</h2>
       <div className="w-7/12 text-center contentCenter">
         <p>
           I am currently looking for new opportunities, my inbox is always open.
@@ -74,7 +74,7 @@ export default function Contact() {
               name="name"
               value={values.name}
               onChange={handleChange}
-              className="border border-gray-300 rounded-md block w-3/5"
+              className="border border-gray-300 rounded-md block w-3/5 pt-1 pb-1 pl-2"
             />
             <small className="pb-10 text-red-700">{errors.name}</small>
           </div>
@@ -84,7 +84,7 @@ export default function Contact() {
               name="email"
               value={values.email}
               onChange={handleChange}
-              className="border border-gray-300 rounded-md  block w-3/5"
+              className="border border-gray-300 rounded-md  block w-3/5 pt-1 pb-1 pl-2"
             />
             <small className="pb-10 text-red-700">{errors.email}</small>
           </div>
@@ -96,14 +96,14 @@ export default function Contact() {
               rows="5"
               value={values.message}
               onChange={handleChange}
-              className="border border-gray-300 rounded-md block w-3/5"
+              className="border border-gray-300 rounded-md block w-3/5 pt-1 pb-1 pl-2"
             ></textarea>
             <small className="pb-10 text-red-700">{errors.message}</small>
           </div>
           <button
             type="submit"
             onClick={notify}
-            className=" py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-gray-600 hover:bg-gray-500 "
+            className=" py-2 px-4 lang_btn border text-sm font-mono rounded-md "
           >
             Submit
           </button>

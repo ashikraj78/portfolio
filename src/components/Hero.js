@@ -2,10 +2,12 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className=" pt-10 mb-4">
-      <p>Hi, my name is</p>
-      <h1 className="text-7xl font-sans font-black pb-5 pt-8">Ashik Raj.</h1>
-      <h1 className="text-7xl font-sans font-bold pb-8">
+    <div id="about" className=" pt-10 mb-4">
+      <p className="font-mono">Hi, my name is</p>
+      <h1 className="text-7xl font-sans font-black pb-5 pt-8 text-gray-800">
+        Ashik Raj.
+      </h1>
+      <h1 className="text-7xl font-sans font-bold pb-8 text-gray-700">
         I build things for the web.
       </h1>
       <h3 className="w-3/6">
@@ -16,7 +18,7 @@ export default function Hero() {
       <div className="mt-10">
         <a
           href="mailto:ashikraj.78@gmail.com"
-          className="border-solid border border-black px-10 py-4 rounded-md inline-block"
+          className="border-solid border border-gray-200 px-8 py-4 rounded-md inline-block font-mono large_btn"
         >
           Get In Touch
         </a>
