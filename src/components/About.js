@@ -7,7 +7,7 @@ export default function About() {
       <h2 className="mt-10 mb-10 text-center font-semibold sheading text-3xl sm:text-5xl ">
         About me
       </h2>
-      <div className="flex justify-between">
+      <div className="sm:flex justify-between">
         <div className="sm:w-3/6 text-gray-700">
           <p className="mb-4 pt-1">
             Hello! I'm Ashik Raj , a full-stack Web Application Developer ({" "}
@@ -26,8 +26,8 @@ export default function About() {
         </div>
         <img
           src={Picture}
-          alt="profilepic"
-          className="w-3/12 border-solid border border-gray-500 rounded-md"
+          alt="profilep/ic"
+          className="w-7/12 sm:w-3/12 border-solid border border-gray-500 rounded-md"
         />
       </div>
     </div>
