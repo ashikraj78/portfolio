@@ -21,7 +21,7 @@ function App() {
         <Projects />
         <Contact />
       </div>
-      <div className="pl-16 pr-16 ">
+      <div className="pl-4 pr-4  sm:pl-16 sm:pr-16 ">
         <Social />
       </div>
     </div>

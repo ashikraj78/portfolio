@@ -4,9 +4,15 @@ import { projects } from "../projects.json";
 export default function Projects() {
   const [filterProjects, setFrilterProjects] = useState(projects);
   let [languages, setLanguages] = useState(
-    [
-      ...new Set(projects.map((project) => project.language).flat()),
-    ].map((lang) => ({ label: lang, checked: false }))
+    [...new Set(projects.map((project) => project.language).flat())].map(
+      (lang) => {
+        if (lang === "all") {
+          return { label: lang, checked: true };
+        }
+
+        return { label: lang, checked: false };
+      }
+    )
   );
   function handleClick(lang) {
     let showProjects = projects.filter((pro) => pro.language.includes(lang));

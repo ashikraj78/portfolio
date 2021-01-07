@@ -20,10 +20,6 @@ function validator(values) {
   return errors;
 }
 export default function Contact() {
-  const notify = () =>
-    toast.success("Sending Message !", {
-      position: toast.POSITION.BOTTOM_RIGHT,
-    });
   const { handleSubmit, handleChange, values, errors, handleReset } = useFormik(
     {
       initialValues: {
@@ -35,11 +31,18 @@ export default function Contact() {
       validateOnChange: false,
       validate: validator,
       onSubmit: (values) => {
+        notify();
         handleClick();
         handleReset();
       },
     }
   );
+
+  const notify = () => {
+    toast.success("Sending Message !", {
+      position: toast.POSITION.BOTTOM_RIGHT,
+    });
+  };
 
   function handleClick() {
     fetch("https://formspree.io/f/xayllbee", {
@@ -104,7 +107,6 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            onClick={notify}
             className=" py-2 px-4 lang_btn border text-sm font-mono rounded-md  "
           >
             Submit

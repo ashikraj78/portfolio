@@ -109,6 +109,9 @@
   .one_third {
     width: 100%;
   }
+  .smicon {
+    scale: 0.8;
+  }
 }
 
 .navi:hover {
