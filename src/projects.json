@@ -19,6 +19,15 @@
       "sku": "2"
     },
     {
+      "title": "Asma Aadhar",
+      "details": "It is a live project and was designed for architectural client.",
+      "language": ["all", "javasctipt", "html-css"],
+      "image": "lappy.webp",
+      "website": "https://asmaadhar.com/",
+      "code": "https://github.com/ashikraj78/assmaadhar",
+      "sku": "9"
+    },
+    {
       "title": "Gate Ar. Forum",
       "details": "Web app for preparation of Gate Architecture. Get here free study material for GATE preparation.",
       "language": ["all", "react-js"],
@@ -71,15 +80,6 @@
       "website": "abc.com",
       "code": "https://github.com/ashikraj78/TODO-MVC",
       "sku": "8"
-    },
-    {
-      "title": "Asma Aadhar",
-      "details": "It is a live project and was designed for architectural client.",
-      "language": ["all", "javasctipt", "html-css"],
-      "image": "lappy.webp",
-      "website": "https://asmaadhar.com/",
-      "code": "https://github.com/ashikraj78/assmaadhar",
-      "sku": "9"
     }
   ]
 }

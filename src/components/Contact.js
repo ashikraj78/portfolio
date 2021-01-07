@@ -76,7 +76,7 @@ export default function Contact() {
               name="name"
               value={values.name}
               onChange={handleChange}
-              className="border border-gray-300 rounded-md block  w-full sm:w-3/5 pt-1 pb-1 pl-2"
+              className="border border-gray-300 rounded-md block  w-full sm:w-3/5 pt-1 pb-1 pl-2 text-gray-700"
             />
             <small className="pb-10 text-red-700">{errors.name}</small>
           </div>
@@ -86,7 +86,7 @@ export default function Contact() {
               name="email"
               value={values.email}
               onChange={handleChange}
-              className="border border-gray-300 rounded-md  block w-full sm:w-3/5 pt-1 pb-1 pl-2"
+              className="border border-gray-300 rounded-md  block w-full sm:w-3/5 pt-1 pb-1 pl-2 text-gray-700"
             />
             <small className="pb-10 text-red-700">{errors.email}</small>
           </div>
@@ -98,14 +98,14 @@ export default function Contact() {
               rows="5"
               value={values.message}
               onChange={handleChange}
-              className="border border-gray-300 rounded-md block w-full sm:w-3/5 pt-1 pb-1 pl-2"
+              className="border border-gray-300 rounded-md block w-full sm:w-3/5 pt-1 pb-1 pl-2 text-gray-700"
             ></textarea>
             <small className="pb-10 text-red-700">{errors.message}</small>
           </div>
           <button
             type="submit"
             onClick={notify}
-            className=" py-2 px-4 lang_btn border text-sm font-mono rounded-md "
+            className=" py-2 px-4 lang_btn border text-sm font-mono rounded-md  "
           >
             Submit
           </button>
