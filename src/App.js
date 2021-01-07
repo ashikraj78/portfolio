@@ -11,7 +11,7 @@ import About from "./components/About";
 function App() {
   return (
     <div className="relative">
-      <div className="pl-4 sm:pl-12 pr-12  mt-6 ">
+      <div className="pl-4 pr-8 sm:pl-12 sm:pr-12  mt-6 ">
         <Navbar />
       </div>
       <div className="pl-4 pr-4 sm:pl-40 sm:pr-40">
