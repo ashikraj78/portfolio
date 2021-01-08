@@ -112,6 +112,9 @@
   .smicon {
     scale: 0.8;
   }
+  .profilepic {
+    margin: 0 auto;
+  }
 }
 
 .navi:hover {

@@ -24,10 +24,11 @@ export default function About() {
             variety of interesting and meaningful projects on a daily basis.
           </p>
         </div>
+
         <img
           src={Picture}
           alt="profilep/ic"
-          className="w-7/12 sm:w-3/12 border-solid border border-gray-500 rounded-md"
+          className="w-7/12  sm:w-3/12 border-solid border border-gray-500 rounded-md profilepic"
         />
       </div>
     </div>
