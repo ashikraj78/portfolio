@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="pt-8 sm:pt-10 h-5/6">
+    <div className="pt-8 sm:pt-10 h-full">
       <p className="font-mono">Hi, my name is</p>
       <h1 className="text-2xl sm:text-7xl font-sans font-black pb-2  sm:pb-5 pt-2 sm:pt-8 text-gray-800">
         Ashik Raj.

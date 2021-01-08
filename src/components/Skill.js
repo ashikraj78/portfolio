@@ -41,7 +41,7 @@ export default function Skill() {
         </div>
       </div>
       <div className="flex justify-between mt-1 sm:mt-8">
-        <div className="border-solid border border-black-900 h-28 p-2 sm:p-0 sm:h-44 sm:w-1/5 flex justify-center items-center rounded-md bg-white">
+        <div className="border-solid border border-black-900 h-28 p-2 sm:p-0 sm:h-44 w-1/4 sm:w-1/5 flex justify-center items-center rounded-md bg-white">
           <div>
             <img src={ReactImg} alt="html" />
             <p className="font-mono text-xs sm:text-base">REACT JS</p>
@@ -53,13 +53,13 @@ export default function Skill() {
             <p className="font-mono text-xs sm:text-base">NODE JS</p>
           </div>
         </div>
-        <div className="border-solid border border-black-900 h-28 p-2 sm:p-0 sm:h-44  sm:w-1/5 flex justify-center items-center rounded-md bg-white">
+        <div className="border-solid border border-black-900 h-28 p-2 sm:p-0 sm:h-44 w-1/4 sm:w-1/5 flex justify-center items-center rounded-md bg-white">
           <div>
             <img src={MonoImg} alt="html" className="sm:pl-4" />
             <p className="font-mono text-xs sm:text-base">MONGO DB</p>
           </div>
         </div>
-        <div className="border-solid border border-black-900 h-28 p-2 sm:p-0 sm:h-44 sm:w-1/5 flex justify-center items-center rounded-md bg-white">
+        <div className="border-solid border border-black-900 h-28 p-2 sm:p-0 sm:h-44 w-1/4 sm:w-1/5 flex justify-center items-center rounded-md bg-white">
           <div>
             <img src={GitImg} alt="html" />
             <p className="pl-4 font-mono text-xs sm:text-base">GIT</p>
