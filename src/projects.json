@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "Trello Clone",
-      "details": "Web-based list-making application. Users can create their task boards with different columns and move the tasks between them.",
+      "details": "MERN based full stack application resembilng Trello.",
       "language": ["all", "react-js", "node-js"],
       "image": "lappy.webp",
       "website": "https://ashikraj78.github.io/trello_frontend/",
@@ -11,8 +11,8 @@
     },
     {
       "title": "Shopping Cart",
-      "details": "Fornt-end based application. User can filter products based on required sizes and shorting it based on price",
-      "language": ["all", "react-js", "javasctipt"],
+      "details": "React based application. User can filter products based on required sizes and short it based on price",
+      "language": ["all", "react-js", "javascript"],
       "image": "lappy.webp",
       "website": "https://ashikraj78.github.io/shopping_cart_react/",
       "code": "https://github.com/ashikraj78/shopping_cart_react",
@@ -20,8 +20,8 @@
     },
     {
       "title": "Asma Aadhar",
-      "details": "It is a live project and was designed for architectural client.",
-      "language": ["all", "javasctipt", "html-css"],
+      "details": "JavaScript based live website, designed for architectural client.",
+      "language": ["all", "javascript", "html-css"],
       "image": "lappy.webp",
       "website": "https://asmaadhar.com/",
       "code": "https://github.com/ashikraj78/assmaadhar",
@@ -29,7 +29,7 @@
     },
     {
       "title": "Gate Ar. Forum",
-      "details": "Web app for preparation of Gate Architecture. Get here free study material for GATE preparation.",
+      "details": "React based live web app for preparation of Gate Architecture examination.",
       "language": ["all", "react-js"],
       "image": "lappy.webp",
       "website": "https://gatearforum.in/",
@@ -38,7 +38,7 @@
     },
     {
       "title": "E Tuckshop",
-      "details": "A full-stack web-app and make use of whatever I have learnt in the journey of Node & Express. Here I used Nodemailer, building the Cart & Orders Section.",
+      "details": "Node & Express based application for e commerce. Here I used Nodemailer, building the Cart & Orders Section.",
       "language": ["all", "node-js"],
       "image": "lappy.webp",
       "website": "https://immense-headland-23527.herokuapp.com/",
@@ -55,9 +55,9 @@
       "sku": "5"
     },
     {
-      "title": "Game",
-      "details": "Game is part of life. It enhance our thought process and control",
-      "language": ["all", "javasctipt"],
+      "title": "Brakout Game",
+      "details": "JavaScript based game using canvas. It is basic version of 2D breakout game.",
+      "language": ["all", "javascript"],
       "image": "lappy.webp",
       "website": "https://ashikraj78.github.io/game/.",
       "code": "https://github.com/ashikraj78/game",
@@ -65,8 +65,8 @@
     },
     {
       "title": "Quiz App",
-      "details": "Quiz App using OOPs. It involves the usage of JSON data and based on that entire content is generated dynamically.",
-      "language": ["all", "javasctipt"],
+      "details": "JavaScript based application. It is made using object oriented programming.",
+      "language": ["all", "javascript"],
       "image": "lappy.webp",
       "website": "https://ashikraj78.github.io/quiz_app/.",
       "code": "https://github.com/ashikraj78/quiz_app",
@@ -74,8 +74,8 @@
     },
     {
       "title": "ToDos",
-      "details": "It is a Todo webapp. Aim was to build Todo App completely using javascript and the concept of SST[Single source of truth]",
-      "language": ["all", "javasctipt"],
+      "details": "JavaScript based application. It is a task management app to stay organized. ",
+      "language": ["all", "javascript"],
       "image": "lappy.webp",
       "website": "abc.com",
       "code": "https://github.com/ashikraj78/TODO-MVC",
