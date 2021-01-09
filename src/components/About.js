@@ -23,9 +23,7 @@ export default function About() {
           <p className="mb-4">
             I’m now excited to apply my understanding of form and functionality
             to my new canvas,{" "}
-            <span className="text-gray-900 italic">the web</span> . I'm
-            currently based in Dharamshala, India and specialize in building
-            pixel perfect websites, applications, and everything in between.
+            <span className="text-gray-900 italic">the web</span> .
           </p>
           {/* <p className="mb-4">
             Shortly after graduating from School of Planning and Architecture

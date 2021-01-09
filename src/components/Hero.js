@@ -12,9 +12,9 @@ export default function Hero() {
       </h1>
       <div>
         <h3 className="sm:w-3/6">
-          I'm a software engineer based in Dharamashala, India specializing in
-          building (and occasionally designing) exceptional websites,
-          applications, and everything in between.
+          I'm a web developer based in Dharamashala, India specializing in
+          building exceptional websites, applications, and everything in
+          between.
         </h3>
       </div>
       <div className="mt-4 sm:mt-10">
