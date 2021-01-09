@@ -47,7 +47,7 @@
     },
     {
       "title": "Community App",
-      "details": "Medium is an open platform where readers find dynamic thinking, and where expert and undiscovered voices can share their writing on any topic.",
+      "details": "MERN based full stack application resembilng Medium.",
       "language": ["all", "node-js", "react-js"],
       "image": "lappy.webp",
       "website": "abc.com",
