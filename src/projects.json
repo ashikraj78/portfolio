@@ -38,7 +38,7 @@
     },
     {
       "title": "E Tuckshop",
-      "details": "Node & Express based application for e commerce. Here I used Nodemailer, building the Cart & Orders Section.",
+      "details": "Node & Express based application for e commerce. CRUD method and authentication has been implemented.",
       "language": ["all", "node-js"],
       "image": "lappy.webp",
       "website": "https://immense-headland-23527.herokuapp.com/",
