@@ -46,16 +46,16 @@
       "sku": "4"
     },
     {
-      "title": "Community App",
-      "details": "MERN based full stack application resembilng Medium.",
+      "title": "Conduit App",
+      "details": "MERN based full stack application resembilng functionality of Medium.",
       "language": ["all", "node-js", "react-js"],
       "image": "lappy.webp",
-      "website": "abc.com",
-      "code": "#",
+      "website": "https://ashikraj78.github.io/conduit_app/",
+      "code": "https://github.com/ashikraj78/conduit_app",
       "sku": "5"
     },
     {
-      "title": "Brakout Game",
+      "title": "Breakout Game",
       "details": "JavaScript based game using canvas. It is basic version of 2D breakout game.",
       "language": ["all", "javascript"],
       "image": "lappy.webp",
