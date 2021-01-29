@@ -1,6 +1,15 @@
 {
   "projects": [
     {
+      "title": "Downtime Monitor",
+      "details": "MERN based full stack application monitoring website at custom intervals.",
+      "language": ["all", "react-js", "node-js"],
+      "image": "lappy.webp",
+      "website": "https://elegant-kirch-9bd663.netlify.app/",
+      "code": "https://github.com/ashikraj78/DowntimeMonitor_frontend",
+      "sku": "10"
+    },
+    {
       "title": "Trello Clone",
       "details": "MERN based full stack application resembilng Trello.",
       "language": ["all", "react-js", "node-js"],
@@ -9,15 +18,7 @@
       "code": "https://github.com/ashikraj78/trello_frontend",
       "sku": "1"
     },
-    {
-      "title": "Shopping Cart",
-      "details": "React based application. User can filter products based on required sizes and short it based on price",
-      "language": ["all", "react-js", "javascript"],
-      "image": "lappy.webp",
-      "website": "https://ashikraj78.github.io/shopping_cart_react/",
-      "code": "https://github.com/ashikraj78/shopping_cart_react",
-      "sku": "2"
-    },
+
     {
       "title": "Asma Aadhar",
       "details": "JavaScript based live website, designed for architectural client.",
@@ -35,6 +36,15 @@
       "website": "https://gatearforum.in/",
       "code": "https://github.com/ashikraj78/gateARForum",
       "sku": "3"
+    },
+    {
+      "title": "Shopping Cart",
+      "details": "React based application. User can filter products based on required sizes and short it based on price",
+      "language": ["all", "react-js", "javascript"],
+      "image": "lappy.webp",
+      "website": "https://ashikraj78.github.io/shopping_cart_react/",
+      "code": "https://github.com/ashikraj78/shopping_cart_react",
+      "sku": "2"
     },
     {
       "title": "E Tuckshop",
@@ -71,15 +81,6 @@
       "website": "https://ashikraj78.github.io/quiz_app/.",
       "code": "https://github.com/ashikraj78/quiz_app",
       "sku": "7"
-    },
-    {
-      "title": "ToDos",
-      "details": "JavaScript based application. It is a task management app to stay organized. ",
-      "language": ["all", "javascript"],
-      "image": "lappy.webp",
-      "website": "abc.com",
-      "code": "https://github.com/ashikraj78/TODO-MVC",
-      "sku": "8"
     }
   ]
 }
