@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "./static/css/main.f1a70b5e.chunk.css",
-    "main.js": "./static/js/main.5490b2c3.chunk.js",
-    "main.js.map": "./static/js/main.5490b2c3.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.2fa06b56.js",
-    "runtime-main.js.map": "./static/js/runtime-main.2fa06b56.js.map",
+    "main.js": "./static/js/main.cf1ddd5b.chunk.js",
+    "main.js.map": "./static/js/main.cf1ddd5b.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.93591325.js",
+    "runtime-main.js.map": "./static/js/runtime-main.93591325.js.map",
     "static/css/2.ccc6f86f.chunk.css": "./static/css/2.ccc6f86f.chunk.css",
-    "static/js/2.6a4a8779.chunk.js": "./static/js/2.6a4a8779.chunk.js",
-    "static/js/2.6a4a8779.chunk.js.map": "./static/js/2.6a4a8779.chunk.js.map",
-    "static/js/3.9b3ff499.chunk.js": "./static/js/3.9b3ff499.chunk.js",
-    "static/js/3.9b3ff499.chunk.js.map": "./static/js/3.9b3ff499.chunk.js.map",
+    "static/js/2.58ee51c0.chunk.js": "./static/js/2.58ee51c0.chunk.js",
+    "static/js/2.58ee51c0.chunk.js.map": "./static/js/2.58ee51c0.chunk.js.map",
+    "static/js/3.21f71d7b.chunk.js": "./static/js/3.21f71d7b.chunk.js",
+    "static/js/3.21f71d7b.chunk.js.map": "./static/js/3.21f71d7b.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.ccc6f86f.chunk.css.map": "./static/css/2.ccc6f86f.chunk.css.map",
     "static/css/main.f1a70b5e.chunk.css.map": "./static/css/main.f1a70b5e.chunk.css.map",
-    "static/js/2.6a4a8779.chunk.js.LICENSE.txt": "./static/js/2.6a4a8779.chunk.js.LICENSE.txt",
+    "static/js/2.58ee51c0.chunk.js.LICENSE.txt": "./static/js/2.58ee51c0.chunk.js.LICENSE.txt",
     "static/media/1.png": "./static/media/1.ffa4a226.png",
+    "static/media/10.png": "./static/media/10.2fd04da2.png",
     "static/media/2.png": "./static/media/2.dfb334df.png",
     "static/media/3.png": "./static/media/3.2f0ea18b.png",
     "static/media/4.png": "./static/media/4.a505abed.png",
@@ -34,10 +35,10 @@
     "static/media/tailwind.017e1e30.svg": "./static/media/tailwind.017e1e30.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2fa06b56.js",
+    "static/js/runtime-main.93591325.js",
     "static/css/2.ccc6f86f.chunk.css",
-    "static/js/2.6a4a8779.chunk.js",
+    "static/js/2.58ee51c0.chunk.js",
     "static/css/main.f1a70b5e.chunk.css",
-    "static/js/main.5490b2c3.chunk.js"
+    "static/js/main.cf1ddd5b.chunk.js"
   ]
 }
