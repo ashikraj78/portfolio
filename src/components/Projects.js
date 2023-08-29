@@ -14,6 +14,21 @@ export default function Projects() {
       }
     )
   );
+  // function handleClick(lang) {
+  //   let showProjects = projects.filter((pro) => pro.language.includes(lang));
+  //   setFrilterProjects(showProjects);
+
+  //   let clickedLanguages = languages.map((singleLanguage) => {
+  //     if (singleLanguage.label === lang) {
+  //       return { ...singleLanguage, checked: !singleLanguage.checked };
+  //     } else {
+  //       return { ...singleLanguage, checked: false };
+  //     }
+  //     return singleLanguage;
+  //   });
+  //   setLanguages(clickedLanguages);
+  // }
+
   function handleClick(lang) {
     let showProjects = projects.filter((pro) => pro.language.includes(lang));
     setFrilterProjects(showProjects);
@@ -21,13 +36,12 @@ export default function Projects() {
     let clickedLanguages = languages.map((singleLanguage) => {
       if (singleLanguage.label === lang) {
         return { ...singleLanguage, checked: !singleLanguage.checked };
-      } else {
-        return { ...singleLanguage, checked: false };
       }
-      return singleLanguage;
+      return { ...singleLanguage, checked: false };
     });
     setLanguages(clickedLanguages);
   }
+
   return (
     <section id="project" className="mb-10">
       <h2 className="mb-10 text-center font-semibold sheading text-3xl sm:text-5xl ">

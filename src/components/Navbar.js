@@ -4,7 +4,7 @@ import LogoImg from "../images/logo3.svg";
 export default function Navbar() {
   return (
     <nav className="flex justify-between items-center mb-10">
-      <a href="#">
+      <a href="/">
         <img src={LogoImg} alt="logo" />
       </a>
       <section className="font-mono  ">
