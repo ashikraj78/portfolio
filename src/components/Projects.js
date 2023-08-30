@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { projects } from "../projects.json";
+import { projects } from "../projects";
 
 export default function Projects() {
   const [filterProjects, setFrilterProjects] = useState(projects);
-  let [languages, setLanguages] = useState(
+  const [languages, setLanguages] = useState(
     [...new Set(projects.map((project) => project.language).flat())].map(
       (lang) => {
         if (lang === "all") {
@@ -14,20 +14,6 @@ export default function Projects() {
       }
     )
   );
-  // function handleClick(lang) {
-  //   let showProjects = projects.filter((pro) => pro.language.includes(lang));
-  //   setFrilterProjects(showProjects);
-
-  //   let clickedLanguages = languages.map((singleLanguage) => {
-  //     if (singleLanguage.label === lang) {
-  //       return { ...singleLanguage, checked: !singleLanguage.checked };
-  //     } else {
-  //       return { ...singleLanguage, checked: false };
-  //     }
-  //     return singleLanguage;
-  //   });
-  //   setLanguages(clickedLanguages);
-  // }
 
   function handleClick(lang) {
     let showProjects = projects.filter((pro) => pro.language.includes(lang));
@@ -62,15 +48,12 @@ export default function Projects() {
         ))}
       </div>
       <div className="flex flex-wrap justify-between mt-5 sm:mt-10">
-        {filterProjects.map((proj) => (
+        {filterProjects?.map((proj) => (
           <div className="border-solid border border-gray-300 px-2 py-2 rounded-md singleproject mt-4 one_third bg-white project_display">
             <h3 className="text-xl font-semibold text-gray-500 text-center mb-8 mt-4">
               {proj.title}
             </h3>
-            <img
-              src={require(`../images/${proj.sku}.png`).default}
-              alt="project"
-            />
+            <img src={`/${proj.sku}.png`} alt="project" />
             <p className="text-gray-500 mb-1 mt-2 h-24 text-center ">
               {proj.details}
             </p>
