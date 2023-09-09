@@ -8,21 +8,26 @@ export default function About() {
         About me
       </h2>
       <div className="sm:flex justify-between">
-        <div className="sm:w-3/6 text-gray-700">
+        <div className="sm:w-4/6 text-gray-700">
           <p className="mb-4 pt-1">
-            An architect turned web developer. A graduate of School of Planning
-            and Architecture, Bhopal, I’ve spent 7+ years learning and applying
-            architecture and design thinking.
+            Blending my affinity for design with a deep-rooted passion for
+            coding, I’ve spent the last 3 years bringing vibrant ideas to life
+            on the digital landscape. My journey, which began with the
+            conceptual elegance of spatial designs, has evolved into a love
+            story with the MERN stack. In this realm, I don't just code; I
+            sculpt, paint, and weave narratives.
           </p>
           <p className="mb-4 pt-1">
-            My projects as an architect include giving a modern interpretation
-            to a ruined fort in Rajasthan to transforming an urban sewage
-            wasteland in Gurgaon into an award winning park, used by thousands
-            everyday.
+            Front-end design is where my heart truly sings. Here, I bridge the
+            art of visual appeal with the science of functionality, ensuring
+            that users don't just visit websites but experience them.
           </p>
           <p className="mb-4">
-            I’m now excited to apply my understanding of form and functionality
-            to my new canvas,{" "}
+            Across diverse projects, I’ve donned multiple hats - from creating
+            intuitive applications and refining user interfaces to optimizing
+            performance and making each interaction memorable. As the digital
+            world constantly evolves, so does my commitment to learning,
+            growing, and innovating.
             <span className="text-gray-900 italic">the web</span> .
           </p>
           {/* <p className="mb-4">
@@ -35,7 +40,7 @@ export default function About() {
         <img
           src={Picture}
           alt="profilep/ic"
-          className="w-7/12  sm:w-2/6 border-solid border border-gray-500 rounded-md profilepic"
+          className="w-7/12  sm:w-3/12 border-solid shadow border-gray-500 rounded-md profilepic"
         />
       </div>
     </div>
