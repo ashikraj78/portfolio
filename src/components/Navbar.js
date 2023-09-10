@@ -1,11 +1,11 @@
 import React from "react";
-import LogoImg from "../images/logo3.svg";
+import LogoImg from "../images/logo_Ashik.png";
 
 export default function Navbar() {
   return (
     <nav className="flex justify-between items-center mb-10">
       <a href="/">
-        <img src={LogoImg} alt="logo" />
+        <img src={LogoImg} alt="logo" className="w-28" />
       </a>
       <section className="font-mono  ">
         <a className="pr-6 navi hidden sm:inline" href="#about">
