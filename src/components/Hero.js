@@ -8,13 +8,14 @@ export default function Hero() {
         Ashik Raj.
       </h1>
       <h1 className="text-2xl sm:text-7xl font-sans font-bold pb-2 sm:pb-8 text-gray-700">
-        I build things for the web.
+        I turn ideas into web magic.
       </h1>
       <div>
-        <h3 className="sm:w-3/6">
-          I'm a web developer based in Dharamashala, India specializing in
-          building exceptional websites, applications, and everything in
-          between.
+        <h3 className="sm:w-4/6">
+          Hello World ! From the peaceful nooks of Dharamshala, India, I pour my
+          heart into web development. Crafting websites and applications isn't
+          just my job; it's a piece of who I am. I find joy in turning lines of
+          code into vibrant digital stories. Come, let's share this journey!
         </h3>
       </div>
       <div className="mt-4 sm:mt-10">
